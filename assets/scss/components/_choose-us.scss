@@ -1,0 +1,49 @@
+#choose-us{
+    padding: 150px;
+    background-color: #FBFCFE;
+    .choose-us-content{
+        margin-top: 35px;
+        transition: all .4s linear;
+        .inner-box{
+            padding-left: 35px;
+            border-radius: 10px ;
+            background-color: #fff;
+            padding-top: 100px;
+            .icon{
+                background-color: #EDFCF6;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                line-height: 58px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                i{
+                    color: #8056FF;
+                    font-size: 30px;
+                }
+                .fa-laptop{
+                    color: #5AD6A6;
+                }
+                .fa-circle{
+                    color: #FEB301;
+                }
+            }
+            .choose-title{
+                h3{
+                    color: #000;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+                p{
+                    color: #7E92AC;
+                    padding-right: 20px;
+                }
+                padding-bottom: 30px;
+            }
+        }
+        &:hover{
+            border-radius: 10px ;
+            box-shadow: 1px 2px 10px 8px #8888883b;
+        }
+    }
+}
